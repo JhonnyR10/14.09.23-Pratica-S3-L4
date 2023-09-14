@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tombola</title>
+    <link rel="stylesheet" href="css/tombola.css"
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="h1-container">
+          <h1>JOHNNY'S TOMBOLA</h1>
+        </div>
+        <div id="startButton">
+          <button onclick="estrazione(event)">ESTRAI</button>
+        </div>
+        <div id="formContenitor">
+          <form id="form">
+            <label for="numCartelle">INSERISCI IL NUMERO DI CARTELLE</label>
+            <input id="numCartelle" type="number" />
+            <button>COMPRA</button>
+          </form>
+        </div>
+        <div id="tombolaCell"></div>
+      </div>
+      <section>
+        <div>
+          <p>Le tue Cartelle</p>
+        </div>
+        <div id="proprieCart"></div>
+      </section>
+    </main>
+    <script src="JS/tombola.js"></script>
+  </body>
+</html>
